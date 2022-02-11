@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lesson 5 assignment</title>
+  <style>
+    #myDiv {
+      padding: 50px 0;
+      text-align: left;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div id="divMenu">
+    <header>Banking Application</header>
+    <h1 id="totalBalance">Total balance</h1>
+    <h3 id="Quit">Enter Q to quit</h3>
+    <h3 id="Withdraw">Enter W to withdraw</h3>
+    <h3 id="Deposit">Enter D to deposit</h3>
+    <h3 id="ViewBalance">Enter B to view balance</h3>
+  </div>
+
+  <div id="divInputMenu">
+    <input type="text" id="myText" value="">
+    <button onclick="setMenu()">Submit</button>
+  </div>
+
+
+  <div id="divWidthdrawlMenu" style="display: none">
+    <p>Enter the amount to widthdrawl!</p>
+    <input type="text" id="myWidthdrawlInput" value="">
+    <button onclick="widthdrawlAmount()">Submit</button>
+  </div>
+
+
+  <div id="divDepositMenu" style="display: none">
+    <p>Enter the amount to deposit</p>
+    <input type="text" id="myDepositInput" value="">
+    <button onclick="depositAmount()">Submit</button>
+  </div>
+
+
+  <h1 id="txtGoodBye"></h1>
+
+<script src="./banking-application.js" charset="uft-8"></script>
+
+</body>
+
+</html>
