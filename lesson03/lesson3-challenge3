@@ -1,0 +1,5 @@
+const countries = [ '1,Italy', '2,Spain', '3,France', '4,England', '5,Australia' ];
+
+countries.forEach(function(element) { console.log(element);
+ });
+
